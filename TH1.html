@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- //nhung ma java vao file html-->
+<body>
+<h1 id="hello" onmouseover="onchangeColor()" onmouseout="onchangeColorout()">hello world</h1>
+</body>
+
+<!--<FROM>-->
+<!--    <input type="text" name="username">-->
+<!--    <select id="TEN" onchange="onChange()">-->
+<!--        <option value="Le Hoang">Hoang</option>-->
+<!--        <option value="Ngoc Pham">ngoc</option>-->
+<!--        <option value="quang huy">huy</option>-->
+<!--        <option value="huu huy">huu huy</option>-->
+<!--    </select>-->
+<!--    <button id="bam" onclick="changeColorButton()">click</button>-->
+<!--</FROM>-->
+
+<script>
+    let hello = document.getElementById("hello");
+    function onchangeColor() {
+        hello.style.color = "red";
+
+        }
+    function onchangeColorout() {
+        hello.style.color = "blue";
+    }
+
+    let click = document.getElementById(click);
+    function ColorBlue() {
+        click.style.color = "green";
+
+    }
+    function changeColorButton() {
+        let bam = document.getElementById("bam");
+        bam.style.color= "red";
+
+    }
+
+    function onChange() {
+        let change1 = document.getElementById("TEN").value;
+        alert(change1)
+    }
+
+
+</script>
+</html>
